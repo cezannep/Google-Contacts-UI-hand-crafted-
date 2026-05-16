@@ -1,4 +1,3 @@
-import React from "react";
 import NumberDispay from "../NumberDispay/NumberDispay";
 import NumberPad from "../NumberPad/NumberPad";
 

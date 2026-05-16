@@ -6,14 +6,10 @@ import Keyboard from "./Components/Pages/Keyboard/Keyboard";
 function App() {
   return (
     <>
-    
-    <Routes>
-      
-     <Route element={<Home />} path="/" />
-     <Route element={<Keyboard/>} path="/keypad" />
-
-    </Routes>
-      
+      <Routes>
+        <Route element={<Home />} path="/" />
+        <Route element={<Keyboard />} path="/keypad" />
+      </Routes>
     </>
   );
 }
